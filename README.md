@@ -9,13 +9,13 @@ The goal of this toolkit is to move from gut-feeling decisions to structured, da
 ## 📋 Table of Contents & The 10 Core Frameworks
 
 ### 🏛️ Section 1: Strategic & Environmental Analysis
-1. **SWOT Analysis** (Strengths, Weaknesses, Opportunities, Threats)
+1. **[SWOT Analysis](./strategic-analysis/SWOT-analysis.md)** (Strengths, Weaknesses, Opportunities, Threats)
    * *When to use:* Evaluating internal capabilities vs. external market realities.
 2. **PESTLE Analysis** (Political, Economic, Social, Technological, Legal, Environmental)
    * *When to use:* High-level macro-environmental analysis for long-term product roadmaps.
 
 ### 🔍 Section 2: Root Cause Analysis & Problem Solving
-3. **Fishbone (Ishikawa) Diagram**
+3. **[Fishbone (Ishikawa) Diagram](./root-cause-problem-solving/fishbone-ishikawa.md)**
    * *When to use:* Visualizing and categorizing potential causes of a complex systemic problem or failure.
 4. **The 5 Whys Methodology**
    * *When to use:* Drilling down rapidly to the root cause of an incident, bug, or operational bottleneck.
@@ -35,37 +35,6 @@ The goal of this toolkit is to move from gut-feeling decisions to structured, da
    * *When to use:* Categorizing contexts (Obvious, Complicated, Complex, Chaotic) to choose the right management response.
 10. **RACI Matrix** (Responsible, Accountable, Consulted, Informed)
     * *When to use:* Establishing cross-functional governance, ownership, and communication streams for execution.
-
----
-
-## 🛠️ Deep Dive: Sample Templates & Execution Guides
-
-Here is a quick look at how these frameworks are applied in real-world scenarios:
-
-### 💡 1. SWOT Analysis Template
-| Internal Factors | External Factors |
-| :--- | :--- |
-| **Strengths (Leverage)**<br>- Core technical competencies<br>- Scalable infrastructure | **Opportunities (Exploit)**<br>- Emerging market trends<br>- Unmet user pain points |
-| **Weaknesses (Mitigate)**<br>- Tech debt / Legacy systems<br>- Resource constraints | **Threats (Defend)**<br>- Competitor movements<br>- Regulatory changes |
-
-### 🐟 2. Fishbone (Ishikawa) Breakdown
-Used to map problems across six major branches (**The 6 Ms**):
-* **Manpower:** Skill gaps, training, communication misalignments.
-* **Machine:** Infrastructure failures, software limitations, tool constraints.
-* **Method:** Processes, Agile workflows, documentation gaps.
-* **Material:** Code dependencies, third-party APIs, raw data quality.
-* **Measurement:** KPI flaws, lack of monitoring, wrong metrics.
-* **Milieu (Mother Nature):** Environmental factors, market shifts, corporate culture.
-
-### 🔢 3. RICE Scoring Formula
-To bring mathematical objectivity to product roadmaps, features are scored using:
-
-$$RICE = \frac{Reach \times Impact \times Confidence}{Effort}$$
-
-* **Reach:** How many users will this impact over a given timeframe?
-* **Impact:** How much does this contribute to our quantitative goal? (e.g., Massive = 3, High = 2, Med = 1, Low = 0.5)
-* **Confidence:** How sure are we about our estimates? (e.g., 100% = High, 80% = Medium, 50% = Low)
-* **Effort:** How many "person-months" will this take to deliver?
 
 ---
 
