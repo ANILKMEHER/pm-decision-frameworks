@@ -28,3 +28,17 @@ The problem (or "Effect") is placed at the head of the fish, and potential cause
        /                    /                    \
   MATERIAL              MEASUREMENT             MILIEU
 (Bad Config Data)    (No Pre-alert System)   (Time-zone Silos)
+
+Detailed Breakdown of Root Causes:
+Machine: The deployment environment hit unexpected third-party API rate limits during data synchronization.
+
+Method: The cutover runbook lacked explicit fallback steps for API timeouts.
+
+Material: The configuration data files provided by the upstream team contained minor formatting mismatches.
+
+Manpower: Cross-functional teams had a slight communication gap regarding the exact cutover timeline.
+
+4. Best Practices for Execution
+Combine with the 5 Whys: Once you identify a major factor on a branch (e.g., "Runbook lacked fallback steps"), ask "Why?" five times to find the deep-seated procedural or behavioral failure.
+
+Involve Cross-Functional Teams: Don't do this alone. Bring in developers, QA, operations, and product managers to map the fishbone accurately.
